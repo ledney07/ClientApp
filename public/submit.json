@@ -1,0 +1,594 @@
+{
+   "fileSummary": {
+       "id": 3,
+       "rowCount": 39,
+       "claimCount": 21,
+       "mentalHealthInNetwork": 3,
+       "mentalHealthOutNetwork": 3,
+       "medSurgInNetwork": 9,
+       "medSurgOutNetwork": 4,
+       "emergencyRoom": 1,
+       "pharmaceutical": 1,
+       "skippedClaimLines": 1
+   },
+   "predominantTests": [
+       {
+           "coinsuranceLevels": [
+               {
+                   "id": 23,
+                   "level": 9,
+                   "unit": "Percent",
+                   "allowedAmount": 800.0,
+                   "allowedAmountPercent": 0.8,
+                   "predominant": true
+               },
+               {
+                   "id": 24,
+                   "level": 6,
+                   "unit": "Percent",
+                   "allowedAmount": 200.0,
+                   "allowedAmountPercent": 0.2,
+                   "predominant": false
+               }
+           ],
+           "copayLevels": [],
+           "id": 17,
+           "inpatientOutpatient": "Inpatient",
+           "networkStatus": "InNetwork",
+           "officeVisit": null,
+           "coinsurancePredominantLevel": 9,
+           "coinsuranceViolationAmount": 0.23,
+           "copayPredominantLevel": 0,
+           "copayViolationAmount": 0.0,
+           "numCopaysInViolation": 0,
+           "numCoinsuranceInViolation": 1,
+           "totalMentalHealthClaims": 2
+       },
+       {
+           "coinsuranceLevels": [
+               {
+                   "id": 25,
+                   "level": 25,
+                   "unit": "Percent",
+                   "allowedAmount": 200.0,
+                   "allowedAmountPercent": 0.4,
+                   "predominant": false
+               },
+               {
+                   "id": 26,
+                   "level": 20,
+                   "unit": "Percent",
+                   "allowedAmount": 300.0,
+                   "allowedAmountPercent": 0.6,
+                   "predominant": true
+               }
+           ],
+           "copayLevels": [],
+           "id": 18,
+           "inpatientOutpatient": "Outpatient",
+           "networkStatus": "InNetwork",
+           "officeVisit": null,
+           "coinsurancePredominantLevel": 20,
+           "coinsuranceViolationAmount": 0.0,
+           "copayPredominantLevel": 0,
+           "copayViolationAmount": 50.0,
+           "numCopaysInViolation": 1,
+           "numCoinsuranceInViolation": 0,
+           "totalMentalHealthClaims": 1
+       },
+       {
+           "coinsuranceLevels": [],
+           "copayLevels": [
+               {
+                   "id": 27,
+                   "level": 20,
+                   "unit": "Dollars",
+                   "allowedAmount": 60.0,
+                   "allowedAmountPercent": 0.6,
+                   "predominant": true
+               },
+               {
+                   "id": 28,
+                   "level": 10,
+                   "unit": "Dollars",
+                   "allowedAmount": 40.0,
+                   "allowedAmountPercent": 0.4,
+                   "predominant": false
+               }
+           ],
+           "id": 19,
+           "inpatientOutpatient": "Outpatient",
+           "networkStatus": "InNetwork",
+           "officeVisit": "Office",
+           "coinsurancePredominantLevel": 0,
+           "coinsuranceViolationAmount": 0.0,
+           "copayPredominantLevel": 20,
+           "copayViolationAmount": 0.0,
+           "numCopaysInViolation": 0,
+           "numCoinsuranceInViolation": 0,
+           "totalMentalHealthClaims": 0
+       },
+       {
+           "coinsuranceLevels": [
+               {
+                   "id": 29,
+                   "level": 25,
+                   "unit": "Percent",
+                   "allowedAmount": 200.0,
+                   "allowedAmountPercent": 0.4,
+                   "predominant": false
+               },
+               {
+                   "id": 30,
+                   "level": 20,
+                   "unit": "Percent",
+                   "allowedAmount": 300.0,
+                   "allowedAmountPercent": 0.6,
+                   "predominant": true
+               }
+           ],
+           "copayLevels": [],
+           "id": 20,
+           "inpatientOutpatient": "Outpatient",
+           "networkStatus": "InNetwork",
+           "officeVisit": "Other",
+           "coinsurancePredominantLevel": 20,
+           "coinsuranceViolationAmount": 0.0,
+           "copayPredominantLevel": 0,
+           "copayViolationAmount": 50.0,
+           "numCopaysInViolation": 1,
+           "numCoinsuranceInViolation": 0,
+           "totalMentalHealthClaims": 1
+       },
+       {
+           "coinsuranceLevels": [],
+           "copayLevels": [
+               {
+                   "id": 31,
+                   "level": 30,
+                   "unit": "Dollars",
+                   "allowedAmount": 400.0,
+                   "allowedAmountPercent": 0.4,
+                   "predominant": false
+               },
+               {
+                   "id": 32,
+                   "level": 100,
+                   "unit": "Dollars",
+                   "allowedAmount": 300.0,
+                   "allowedAmountPercent": 0.3,
+                   "predominant": false
+               },
+               {
+                   "id": 33,
+                   "level": 40,
+                   "unit": "Dollars",
+                   "allowedAmount": 300.0,
+                   "allowedAmountPercent": 0.3,
+                   "predominant": true
+               }
+           ],
+           "id": 21,
+           "inpatientOutpatient": "Inpatient",
+           "networkStatus": "OutNetwork",
+           "officeVisit": null,
+           "coinsurancePredominantLevel": 0,
+           "coinsuranceViolationAmount": 0.0,
+           "copayPredominantLevel": 40,
+           "copayViolationAmount": 120.0,
+           "numCopaysInViolation": 2,
+           "numCoinsuranceInViolation": 0,
+           "totalMentalHealthClaims": 2
+       },
+       {
+           "coinsuranceLevels": [],
+           "copayLevels": [],
+           "id": 22,
+           "inpatientOutpatient": "Outpatient",
+           "networkStatus": "OutNetwork",
+           "officeVisit": null,
+           "coinsurancePredominantLevel": 0,
+           "coinsuranceViolationAmount": 0.0,
+           "copayPredominantLevel": 0,
+           "copayViolationAmount": 25.0,
+           "numCopaysInViolation": 1,
+           "numCoinsuranceInViolation": 0,
+           "totalMentalHealthClaims": 1
+       },
+       {
+           "coinsuranceLevels": [],
+           "copayLevels": [],
+           "id": 23,
+           "inpatientOutpatient": "Outpatient",
+           "networkStatus": "OutNetwork",
+           "officeVisit": "Office",
+           "coinsurancePredominantLevel": 0,
+           "coinsuranceViolationAmount": 0.0,
+           "copayPredominantLevel": 0,
+           "copayViolationAmount": 25.0,
+           "numCopaysInViolation": 1,
+           "numCoinsuranceInViolation": 0,
+           "totalMentalHealthClaims": 1
+       },
+       {
+           "coinsuranceLevels": [],
+           "copayLevels": [],
+           "id": 24,
+           "inpatientOutpatient": "Outpatient",
+           "networkStatus": "OutNetwork",
+           "officeVisit": "Other",
+           "coinsurancePredominantLevel": 0,
+           "coinsuranceViolationAmount": 0.0,
+           "copayPredominantLevel": 0,
+           "copayViolationAmount": 0.0,
+           "numCopaysInViolation": 0,
+           "numCoinsuranceInViolation": 0,
+           "totalMentalHealthClaims": 0
+       }
+   ],
+   "settings": {
+       "approvedValues": [
+           {
+               "id": 9,
+               "value": "P"
+           }
+       ],
+       "inNetworkValues": [
+           {
+               "id": 10,
+               "value": "In-Network"
+           }
+       ],
+       "inpatientValues": [
+           {
+               "id": 11,
+               "value": "IN-PATIENT"
+           }
+       ],
+       "outOfNetworkValues": [],
+       "outpatientValues": [
+           {
+               "id": 12,
+               "value": "OUTPATIENT"
+           }
+       ],
+       "unapprovedValues": [],
+       "id": 3,
+       "claimNumCol": 13,
+       "claimLineCol": 14,
+       "diagnosisCodeCol": 0,
+       "procedureCodeCol": 1,
+       "placeOfServiceCol": 2,
+       "networkStatusCol": 4,
+       "adjudicationStatusCol": 5,
+       "allowedAmountCol": 6,
+       "copayAmountCol": 9,
+       "coinsuranceAmountCol": 10,
+       "deductibleAmountCol": 8,
+       "inpatientOutpatientCol": 3,
+       "revenueCodeCol": null,
+       "ndcCodeCol": null
+   },
+   "substantiallyAllTests": [
+       {
+           "id": 17,
+           "inpatientOutpatient": "Inpatient",
+           "networkStatus": "InNetwork",
+           "officeVisit": null,
+           "copayPass": false,
+           "coinsurancePass": true,
+           "copayAllowedAmount": 0.0,
+           "coinsuranceAllowedAmount": 1000.0,
+           "copayPercent": 0.0,
+           "coinsurancePercent": 1.0,
+           "totalAllowedAmount": 1000.0
+       },
+       {
+           "id": 18,
+           "inpatientOutpatient": "Outpatient",
+           "networkStatus": "InNetwork",
+           "officeVisit": null,
+           "copayPass": false,
+           "coinsurancePass": true,
+           "copayAllowedAmount": 100.0,
+           "coinsuranceAllowedAmount": 500.0,
+           "copayPercent": 0.16666666666666666,
+           "coinsurancePercent": 0.83333333333333337,
+           "totalAllowedAmount": 600.0
+       },
+       {
+           "id": 19,
+           "inpatientOutpatient": "Outpatient",
+           "networkStatus": "InNetwork",
+           "officeVisit": "Office",
+           "copayPass": true,
+           "coinsurancePass": false,
+           "copayAllowedAmount": 100.0,
+           "coinsuranceAllowedAmount": 0.0,
+           "copayPercent": 1.0,
+           "coinsurancePercent": 0.0,
+           "totalAllowedAmount": 100.0
+       },
+       {
+           "id": 20,
+           "inpatientOutpatient": "Outpatient",
+           "networkStatus": "InNetwork",
+           "officeVisit": "Other",
+           "copayPass": false,
+           "coinsurancePass": true,
+           "copayAllowedAmount": 0.0,
+           "coinsuranceAllowedAmount": 500.0,
+           "copayPercent": 0.0,
+           "coinsurancePercent": 1.0,
+           "totalAllowedAmount": 500.0
+       },
+       {
+           "id": 21,
+           "inpatientOutpatient": "Inpatient",
+           "networkStatus": "OutNetwork",
+           "officeVisit": null,
+           "copayPass": true,
+           "coinsurancePass": false,
+           "copayAllowedAmount": 1000.0,
+           "coinsuranceAllowedAmount": 0.0,
+           "copayPercent": 1.0,
+           "coinsurancePercent": 0.0,
+           "totalAllowedAmount": 1000.0
+       },
+       {
+           "id": 22,
+           "inpatientOutpatient": "Outpatient",
+           "networkStatus": "OutNetwork",
+           "officeVisit": null,
+           "copayPass": false,
+           "coinsurancePass": false,
+           "copayAllowedAmount": 0.0,
+           "coinsuranceAllowedAmount": 0.0,
+           "copayPercent": 0.0,
+           "coinsurancePercent": 0.0,
+           "totalAllowedAmount": 0.0
+       },
+       {
+           "id": 23,
+           "inpatientOutpatient": "Outpatient",
+           "networkStatus": "OutNetwork",
+           "officeVisit": "Office",
+           "copayPass": false,
+           "coinsurancePass": false,
+           "copayAllowedAmount": 0.0,
+           "coinsuranceAllowedAmount": 0.0,
+           "copayPercent": 0.0,
+           "coinsurancePercent": 0.0,
+           "totalAllowedAmount": 0.0
+       },
+       {
+           "id": 24,
+           "inpatientOutpatient": "Outpatient",
+           "networkStatus": "OutNetwork",
+           "officeVisit": "Other",
+           "copayPass": false,
+           "coinsurancePass": false,
+           "copayAllowedAmount": 0.0,
+           "coinsuranceAllowedAmount": 0.0,
+           "copayPercent": 0.0,
+           "coinsurancePercent": 0.0,
+           "totalAllowedAmount": 0.0
+       }
+   ],
+   "deniedClaimsResults": [
+        {
+            "id": 41,
+            "claimType": "MentalHealth",
+            "networkStatus": "InNetwork",
+            "inpatientOutpatient": "Inpatient",
+            "percentDenied": 0.0,
+            "totalDeniedLines": 0.0,
+            "totalClaimLines": 3.0
+        },
+        {
+            "id": 42,
+            "claimType": "MentalHealth",
+            "networkStatus": "InNetwork",
+            "inpatientOutpatient": "Outpatient",
+            "percentDenied": 0.0,
+            "totalDeniedLines": 0.0,
+            "totalClaimLines": 222.0
+        },
+        {
+            "id": 43,
+            "claimType": "MentalHealth",
+            "networkStatus": "OutNetwork",
+            "inpatientOutpatient": "Inpatient",
+            "percentDenied": 0.0,
+            "totalDeniedLines": 0.0,
+            "totalClaimLines": 0.0
+        },
+        {
+            "id": 44,
+            "claimType": "MentalHealth",
+            "networkStatus": "OutNetwork",
+            "inpatientOutpatient": "Outpatient",
+            "percentDenied": 0.0,
+            "totalDeniedLines": 0.0,
+            "totalClaimLines": 24.0
+        },
+        {
+            "id": 45,
+            "claimType": "MedSurg",
+            "networkStatus": "InNetwork",
+            "inpatientOutpatient": "Inpatient",
+            "percentDenied": 0.0,
+            "totalDeniedLines": 0.0,
+            "totalClaimLines": 267.0
+        },
+        {
+            "id": 46,
+            "claimType": "MedSurg",
+            "networkStatus": "InNetwork",
+            "inpatientOutpatient": "Outpatient",
+            "percentDenied": 0.0,
+            "totalDeniedLines": 0.0,
+            "totalClaimLines": 7556.0
+        },
+        {
+            "id": 47,
+            "claimType": "MedSurg",
+            "networkStatus": "OutNetwork",
+            "inpatientOutpatient": "Inpatient",
+            "percentDenied": 0.0,
+            "totalDeniedLines": 0.0,
+            "totalClaimLines": 97.0
+        },
+        {
+            "id": 48,
+            "claimType": "MedSurg",
+            "networkStatus": "OutNetwork",
+            "inpatientOutpatient": "Outpatient",
+            "percentDenied": 0.0,
+            "totalDeniedLines": 0.0,
+            "totalClaimLines": 925.0
+        }
+    ],
+    "outOfNetworkResults": [
+        {
+            "id": 21,
+            "claimType": "MentalHealth",
+            "inpatientOutpatient": "Inpatient",
+            "percentOutOfNetwork": 0.0,
+            "totalOutOfNetworkLines": 0.0,
+            "totalClaimLines": 3.0,
+            "allowedAmount": 0.0
+        },
+        {
+            "id": 22,
+            "claimType": "MentalHealth",
+            "inpatientOutpatient": "Outpatient",
+            "percentOutOfNetwork": 0.0975609756097561,
+            "totalOutOfNetworkLines": 24.0,
+            "totalClaimLines": 246.0,
+            "allowedAmount": 1930.0
+        },
+        {
+            "id": 23,
+            "claimType": "MedSurg",
+            "inpatientOutpatient": "Inpatient",
+            "percentOutOfNetwork": 0.26648351648351648,
+            "totalOutOfNetworkLines": 97.0,
+            "totalClaimLines": 364.0,
+            "allowedAmount": 21190.82
+        },
+        {
+            "id": 24,
+            "claimType": "MedSurg",
+            "inpatientOutpatient": "Outpatient",
+            "percentOutOfNetwork": 0.10906732696615965,
+            "totalOutOfNetworkLines": 925.0,
+            "totalClaimLines": 8481.0,
+            "allowedAmount": 46746.57
+        }
+    ],
+    "timelinessResults": [
+        {
+            "id": 41,
+            "claimType": "MentalHealth",
+            "networkStatus": "InNetwork",
+            "inpatientOutpatient": "Inpatient",
+            "totalDaysProcessed": 6.0,
+            "totalClaimLines": 3.0,
+            "averageDaysProcessed": 2.0,
+            "linesOverThreshold": 0.0,
+            "percentOverThreshold": 0.0,
+            "timelinessThreshold": 45
+        },
+        {
+            "id": 42,
+            "claimType": "MentalHealth",
+            "networkStatus": "InNetwork",
+            "inpatientOutpatient": "Outpatient",
+            "totalDaysProcessed": 604.0,
+            "totalClaimLines": 222.0,
+            "averageDaysProcessed": 2.7207207207207209,
+            "linesOverThreshold": 0.0,
+            "percentOverThreshold": 0.0,
+            "timelinessThreshold": 45
+        },
+        {
+            "id": 43,
+            "claimType": "MentalHealth",
+            "networkStatus": "OutNetwork",
+            "inpatientOutpatient": "Inpatient",
+            "totalDaysProcessed": 0.0,
+            "totalClaimLines": 0.0,
+            "averageDaysProcessed": 0.0,
+            "linesOverThreshold": 0.0,
+            "percentOverThreshold": 0.0,
+            "timelinessThreshold": 45
+        },
+        {
+            "id": 44,
+            "claimType": "MentalHealth",
+            "networkStatus": "OutNetwork",
+            "inpatientOutpatient": "Outpatient",
+            "totalDaysProcessed": 158.0,
+            "totalClaimLines": 24.0,
+            "averageDaysProcessed": 6.583333333333333,
+            "linesOverThreshold": 0.0,
+            "percentOverThreshold": 0.0,
+            "timelinessThreshold": 45
+        },
+        {
+            "id": 45,
+            "claimType": "MedSurg",
+            "networkStatus": "InNetwork",
+            "inpatientOutpatient": "Inpatient",
+            "totalDaysProcessed": 1425.0,
+            "totalClaimLines": 267.0,
+            "averageDaysProcessed": 5.3370786516853936,
+            "linesOverThreshold": 0.0,
+            "percentOverThreshold": 0.0,
+            "timelinessThreshold": 45
+        },
+        {
+            "id": 46,
+            "claimType": "MedSurg",
+            "networkStatus": "InNetwork",
+            "inpatientOutpatient": "Outpatient",
+            "totalDaysProcessed": 24190.0,
+            "totalClaimLines": 7556.0,
+            "averageDaysProcessed": 3.2014293276866068,
+            "linesOverThreshold": 0.0,
+            "percentOverThreshold": 0.0,
+            "timelinessThreshold": 45
+        },
+        {
+            "id": 47,
+            "claimType": "MedSurg",
+            "networkStatus": "OutNetwork",
+            "inpatientOutpatient": "Inpatient",
+            "totalDaysProcessed": 722.0,
+            "totalClaimLines": 97.0,
+            "averageDaysProcessed": 7.4432989690721652,
+            "linesOverThreshold": 0.0,
+            "percentOverThreshold": 0.0,
+            "timelinessThreshold": 45
+        },
+        {
+            "id": 48,
+            "claimType": "MedSurg",
+            "networkStatus": "OutNetwork",
+            "inpatientOutpatient": "Outpatient",
+            "totalDaysProcessed": 3059.0,
+            "totalClaimLines": 925.0,
+            "averageDaysProcessed": 3.307027027027027,
+            "linesOverThreshold": 0.0,
+            "percentOverThreshold": 0.0,
+            "timelinessThreshold": 45
+        }
+    ],  
+   "id": 3,
+   "status": "Complete",
+   "lastUpdatedDate": "2021-03-10T11:07:50.883",
+   "progress": 0,
+   "uploadId": 1,
+   "fileName": "test_data_all_cases.csv"
+}
